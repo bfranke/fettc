@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Type:</b>
+  <%= @comm_method.type %>
+</p>
+
+<p>
+  <b>Address:</b>
+  <%= @comm_method.address %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @comm_method.user %>
+</p>
+
+
+<%= link_to 'Edit', edit_comm_method_path(@comm_method) %> |
+<%= link_to 'Back', comm_methods_path %>
